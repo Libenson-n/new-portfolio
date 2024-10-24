@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const links = ["Projects", "About", "Contact"];
+const links = ["Projects", "Blog", "Contact"];
 
 const Header = () => {
   return (

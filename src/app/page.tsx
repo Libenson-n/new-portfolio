@@ -1,5 +1,5 @@
+import Blog from "./_components/Blog";
 import Contact from "./_components/Contact";
-import About from "./_components/About";
 import Hero from "./_components/Hero";
 import Projects from "./_components/Projects";
 
@@ -8,8 +8,8 @@ export default function Home() {
     <div className="">
       <main className="">
         <Hero />
-        <About />
         <Projects />
+        <Blog />
         <Contact />
       </main>
     </div>

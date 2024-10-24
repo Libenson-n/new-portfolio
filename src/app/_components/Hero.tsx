@@ -9,14 +9,14 @@ const Hero = () => {
       <div className="flex items-center justify-between">
         <p className="font-bold">
           Hi, I'm Libenson <br />
-          <span className="text-indigo-700 font-semibold">A web developer</span>
+          <span className="text-orange-600 font-semibold">A web developer</span>
         </p>
         <Image
           src="/PORTRAIT.jpg"
           height={200}
           width={200}
           alt="portrait"
-          className="rounded-full shadow-md border"
+          className="rounded-full shadow-md border-8 border-orange-600"
         />
       </div>
       <p className="text-lg">
@@ -30,7 +30,7 @@ const Hero = () => {
         <Link
           href="https://github.com/Libenson-n"
           target="_blank"
-          className="flex items-center gap-2 border rounded-full p-2 shadow-md bg-indigo-700 text-white"
+          className="flex items-center gap-2 border rounded-full p-2 shadow-md bg-orange-600 text-white"
         >
           <FontAwesomeIcon icon={faGithub} className="h-8" />
           <p className="text-xs">GitHub</p>
@@ -38,7 +38,7 @@ const Hero = () => {
         <Link
           href="https://www.linkedin.com/in/libenson-nicolas/"
           target="_blank"
-          className="flex items-center gap-2 border rounded-full px-2 shadow-md bg-indigo-700 text-white"
+          className="flex items-center gap-2 border rounded-full px-2 shadow-md bg-orange-600 text-white"
         >
           <FontAwesomeIcon icon={faLinkedin} className="h-8" />
           <p className="text-xs">LinkedIn</p>
